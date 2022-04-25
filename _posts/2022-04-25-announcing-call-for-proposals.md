@@ -1,5 +1,5 @@
 ---
-author: Logan Kilpatrick
+author: DjangoCon Organizers
 category: General
 date: 2022-04-25 12:00:00
 layout: post
