@@ -4,7 +4,6 @@ category: General
 date: 2022-04-28 06:00:00
 layout: post
 title: "Ready, Set, Here We Go Again!"
-published: false
 ---
 Hello, everyone!
 We are very excited to announce that the website for DjangoCon US 2022 is [live](https://2022.djangocon.us).
