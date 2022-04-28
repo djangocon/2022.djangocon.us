@@ -3,7 +3,6 @@ author: DjangoCon US Organizers
 category: General
 date: 2022-04-28 06:00:00
 layout: post
-image: /static/img/blog/announcing-2019.png
 title: "Ready, Set, Here We Go Again!"
 published: false
 ---
