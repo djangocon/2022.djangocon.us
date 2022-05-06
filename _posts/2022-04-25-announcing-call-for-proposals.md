@@ -9,7 +9,7 @@ post_photo_alt: "Speaker addressing a crowd at DjangoCon US 2019 in San Diego"
 title: "The Call for Proposals for DjangoCon US 2022 Is Now Open!"
 ---
 
-The DjangoCon 2022 organizers are excited to announce that the first in-person DjangoCon since 2019 is now open for talk submissions: [call for proposals](https://pretalx.com/djangocon-2022/cfp)! The deadline for submissions is May 31th, 2022 [AoE](https://time.is/compare/0000_31_May_2022_in_Anywhere_on_Earth). As long as it’s still May 31th anywhere on earth, you can submit your proposal.
+The DjangoCon 2022 organizers are excited to announce that the first in-person DjangoCon since 2019 is now open for talk submissions: [call for proposals](https://pretalx.com/djangocon-2022/cfp)! The deadline for submissions is May 31st, 2022 [AoE](https://time.is/compare/0000_31_May_2022_in_Anywhere_on_Earth). As long as it’s still May 31st anywhere on earth, you can submit your proposal.
 
 We invite you to submit your proposal no matter your background or experience level with Django. Proposals can be from a wide range of topics; non-Django and community topics are welcome. You can look at our [talk schedule](https://2021.djangocon.us/talks/) from last year for reference.
 
