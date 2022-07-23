@@ -513,6 +513,20 @@ def generate_keynote(
 
 
 @app.command()
+def generate_shots():
+    presenters = Path("_presenters").glob("*.md")
+    presenters = sorted(presenters, key=os.path.getmtime)
+    for presenter in presenters:
+        post = frontmatter.loads(presenter.read_text())
+        print(f"- output: ./static/img/social/presenters/{post['slug']}.png")
+        print("  height: 512")
+        print("  quality: 80")
+        print("  width: 1024")
+        print(f"  url: https://2022.djangocon.us{post['permalink']}")
+        print()
+
+
+@app.command()
 def generate_2022_placeholders(event_date: datetime, create_keynotes: bool = False):
     tutorial_date = event_date
     talks_dates = [event_date + relativedelta(days=count) for count in [1, 2, 3]]
