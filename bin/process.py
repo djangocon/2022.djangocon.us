@@ -8,8 +8,10 @@ from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
 from pathlib import Path
 from pydantic import BaseModel, Field, ValidationError
+from rich import print
 from slugify import slugify
 from typing import List, Optional
+from urllib.parse import quote_plus
 import pytz
 
 CONFERENCE_TZ = pytz.timezone("America/Los_Angeles")
@@ -85,10 +87,22 @@ class Presenter(FrontmatterModel):
     override_schedule_title: Optional[str] = None
     photo_url: Optional[str]
     role: Optional[str]
+    slug: Optional[str] = None
     title: Optional[str]
     twitter: Optional[str]
     website: Optional[str]
     website_text: str = "Apply here"
+
+    def __init__(self, **data):
+        super().__init__(**data)
+
+        # if slugs are blank default them to slugify(name)
+        if not self.slug:
+            self.slug = slugify(self.name)
+
+        # if permalink is blank, let's build a new one
+        if not self.permalink:
+            self.permalink = f"/presenters/{self.slug}/"
 
 
 class Schedule(FrontmatterModel):
@@ -170,12 +184,7 @@ def generate_lactation_room(
     start_time: str = "8:00",
     end_time: str = "17:30",
 ):
-    category = "talks"
-    if event_date.weekday() == 6:
-        category = "tutorials"
-    elif event_date.weekday() in {3, 4}:
-        category = "sprints"
-
+    category = "break"
     parsed_start = parse(start_time).time()
     parsed_end = parse(end_time).time()
     if isinstance(event_date, date) and not isinstance(event_date, datetime):
@@ -189,17 +198,17 @@ def generate_lactation_room(
     post = frontmatter.loads(room_name)
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start,
         end_date=end,
+        layout="session-details",
+        link=link or None,
+        permalink=None,
         room=room_name,
         schedule_layout="full",
         sitemap=False,
-        title="Lactation Room",
-        permalink=None,
-        link=link or None,
         talk_slot="full",
+        title="Lactation Room",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -217,12 +226,7 @@ def generate_quiet_room(
     start_time: str = "8:00",
     end_time: str = "18:00",
 ):
-    category = "talks"
-    if event_date.weekday() == 6:
-        category = "tutorials"
-    elif event_date.weekday() in {3, 4}:
-        category = "sprints"
-
+    category = "break"
     parsed_start = parse(start_time).time()
     parsed_end = parse(end_time).time()
     if isinstance(event_date, date) and not isinstance(event_date, datetime):
@@ -236,17 +240,17 @@ def generate_quiet_room(
     post = frontmatter.loads(room_name)
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start,
         end_date=end,
+        layout="session-details",
+        link=None,
+        permalink=None,
         room=room_name,
         schedule_layout="full",
         sitemap=False,
-        title="Quiet Room",
-        permalink=None,
-        link=None,
         talk_slot="full",
+        title="Quiet Room",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -264,10 +268,8 @@ def generate_registration_desk(
     start_time: str = "8:00",
     end_time: str = "18:00",
 ):
-    category = "talks"
-    if event_date.weekday() == 6:
-        category = "tutorials"
-    elif event_date.weekday() in {3, 4}:
+    category = "break"
+    if event_date.weekday() in {3, 4}:
         raise ValueError("We don't have a registration desk on sprint days")
 
     parsed_start = parse(start_time).time()
@@ -283,17 +285,17 @@ def generate_registration_desk(
     post = frontmatter.loads(location)
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start,
         end_date=end,
+        layout="session-details",
+        link=None,
+        permalink=None,
         room=location,
         schedule_layout="full",
         sitemap=False,
-        title="Registration",
-        permalink=None,
-        link=None,
         talk_slot="full",
+        title="Registration",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -306,27 +308,23 @@ def generate_registration_desk(
 
 @app.command()
 def generate_breakfast(start_time: datetime, location: str = "Rio Vista Pavilion"):
-    category = "talks"
-    if start_time.weekday() == 6:
-        category = "tutorials"
-    elif start_time.weekday() in {3, 4}:
-        category = "sprints"
+    category = "lunch"  # yes, I know...
     start_time = CONFERENCE_TZ.localize(start_time)
     end_time = start_time + relativedelta(hours=1)
     post = frontmatter.loads(location)
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start_time,
         end_date=end_time,
+        layout="session-details",
+        link="/catering-menus/",
+        permalink=None,
         room=location,
         schedule_layout="full",
         sitemap=False,
-        title="Continental Breakfast",
-        permalink=None,
-        link="/catering-menus/",
         talk_slot="full",
+        title="Continental Breakfast",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -343,27 +341,23 @@ def generate_break(
     duration_minutes: int = 30,
     location: str = "Rio Vista Pavilion",
 ):
-    category = "talks"
-    if start_time.weekday() == 6:
-        category = "tutorials"
-    elif start_time.weekday() in {3, 4}:
-        raise ValueError("We don't have published breaks on sprint days")
+    category = "break"
     start_time = CONFERENCE_TZ.localize(start_time)
     end_time = start_time + relativedelta(minutes=duration_minutes)
     post = frontmatter.loads(location)
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start_time,
         end_date=end_time,
+        layout="session-details",
+        link=None,
+        permalink=None,
         room=location,
         schedule_layout="full",
         sitemap=False,
-        title="Break",
-        permalink=None,
-        link=None,
         talk_slot="full",
+        title="Break",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -381,24 +375,24 @@ def generate_early_lunch(
     location: str = "Rio Vista Pavilion",
     track: int = 1,
 ):
-    category = "talks"
+    category = "lunch"
     if start_time.weekday() == 6:
         raise ValueError("We don't have lightning talks on tutorial days")
     elif start_time.weekday() in {3, 4}:
-        raise ValueError("We don't have lightning talks on tutorial days")
+        raise ValueError("We don't have lightning talks on sprint days")
     start_time = CONFERENCE_TZ.localize(start_time)
     end_time = start_time + relativedelta(minutes=duration_minutes)
     post = frontmatter.loads("")
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start_time,
         end_date=end_time,
+        layout="session-details",
+        link="/catering-menus/",
         room=location,
         sitemap=False,
         title="Early Lunch",
-        link="/catering-menus/",
         track=f"t{track}",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
@@ -426,15 +420,15 @@ def generate_lunch(
     post = frontmatter.loads("")
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start_time,
         end_date=end_time,
+        layout="session-details",
+        link="/catering-menus/",
         room=location,
         sitemap=False,
-        title="Lunch",
-        link="/catering-menus/",
         talk_slot="full",
+        title="Lunch",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -462,16 +456,16 @@ def generate_lightning_talks(
     post = frontmatter.loads("")
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start_time,
         end_date=end_time,
+        layout="session-details",
+        permalink=f"/talk/lightning-talks-{start_time:%A}/".casefold(),
+        presenter_slugs=["kojo-idrissa"],
         room=location,
         schedule_layout="full",
-        presenter_slugs=["kojo-idrissa"],
         sitemap=True,
         title="Lightning Talks",
-        permalink=f"/talk/lightning-talks-{start_time:%A}/".casefold(),
         track=f"t{track}",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
@@ -499,17 +493,17 @@ def generate_keynote(
     )
     sched = Schedule(
         accepted=True,
-        layout="session-details",
         category=category,
         date=start_time,
+        difficulty="All",
         end_date=end_time,
+        layout="session-details",
+        link=None,
         room=location,
         sitemap=True,
-        track="t1",
-        title="Keynote (to be announced)",
-        link=None,
         talk_slot="full",
-        difficulty="All",
+        title="Keynote (to be announced)",
+        track="t1",
     )
     post.metadata.update(sched.dict(exclude_unset=True))
     output_path = Path(
@@ -518,6 +512,24 @@ def generate_keynote(
     )
     output_path.write_text(frontmatter.dumps(post) + "\n")
     print(f"Saved to {output_path}")
+
+
+@app.command()
+def generate_shots(
+    height: int = 512,
+    quality: int = 80,
+    width: int = 1024,
+):
+    presenters = Path("_presenters").glob("*.md")
+    presenters = sorted(presenters, key=os.path.getmtime)
+    for presenter in presenters:
+        post = frontmatter.loads(presenter.read_text())
+        print(f"- output: ./static/img/social/presenters/{post['slug']}.png")
+        print(f"  height: {height}")
+        print(f"  quality: {quality}")
+        print(f"  width: {width}")
+        print(f"  url: https://2022.djangocon.us{post['permalink']}")
+        print()
 
 
 @app.command()
@@ -537,16 +549,22 @@ def generate_2022_placeholders(event_date: datetime, create_keynotes: bool = Fal
     generate_lactation_room(tutorial_date)
     generate_quiet_room(tutorial_date)
     generate_breakfast(datetime.combine(tutorial_date.date(), tutorial_breakfast_time))
-    generate_lunch(datetime.combine(tutorial_date.date(), tutorial_lunch_time), duration_minutes=60)
+    generate_lunch(
+        datetime.combine(tutorial_date.date(), tutorial_lunch_time), duration_minutes=60
+    )
     for talk_date, breakfast_time in zip(talks_dates, talk_breakfast_times):
         opening_time = datetime.combine(talk_date.date(), registration_open)
         generate_lactation_room(opening_time)
         generate_quiet_room(opening_time)
         generate_breakfast(datetime.combine(talk_date.date(), breakfast_time))
         generate_lunch(datetime.combine(talk_date.date(), talk_lunch_time))
-        generate_lightning_talks(datetime.combine(talk_date.date(), lightning_talk_time))
+        generate_lightning_talks(
+            datetime.combine(talk_date.date(), lightning_talk_time)
+        )
         generate_early_lunch(datetime.combine(talk_date.date(), lightning_talk_time))
-        generate_registration_desk(datetime.combine(talk_date.date(), registration_open))
+        generate_registration_desk(
+            datetime.combine(talk_date.date(), registration_open)
+        )
         for break_time in break_times:
             timestamp = datetime.combine(talk_date.date(), break_time)
             generate_break(timestamp)
@@ -559,7 +577,6 @@ def generate_2022_placeholders(event_date: datetime, create_keynotes: bool = Fal
         generate_breakfast(datetime.combine(sprint_date.date(), breakfast_time))
         generate_lunch(datetime.combine(sprint_date.date(), sprint_lunch_time))
 
-        
 
 @app.command()
 def process(process_presenters: bool = False, slug_max_length: int = 40):
@@ -648,9 +665,11 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
 
                 if post["presenter_slugs"] and len(post["presenter_slugs"]):
                     presenter_slug = post["presenter_slugs"][0]
-                    post[
-                        "image"
-                    ] = f"/static/img/social/presenters/{presenter_slug}.png"
+                    image_url = f"https://2022.djangocon.us/presenters/{presenter_slug}"
+                    image_url = quote_plus(image_url)
+                    image_url = quote_plus(image_url)
+                    image_url = f"https://v1.screenshot.11ty.dev/{image_url}/opengraph/"
+                    post["image"] = image_url
 
             if dirty is True:
                 filename.write_text(frontmatter.dumps(post) + "\n")

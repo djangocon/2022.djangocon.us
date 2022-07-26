@@ -3,8 +3,10 @@ company: Torchbox
 hidden: false
 layout: speaker-template
 name: Meagen Voss
+permalink: /presenters/meagen-voss/
 photo_url: null
-twitter: '@meagenvoss'
+slug: meagen-voss
+twitter: meagenvosss
 website: null
 ---
 

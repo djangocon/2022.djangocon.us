@@ -7,6 +7,7 @@ accepted: true
 category: talks
 date: 2022-10-17 12:00:00-07:00
 end_date: 2022-10-17 12:25:00-07:00
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fmario-munoz/opengraph/
 layout: session-details
 permalink: /talks/why-i-didn-t-start-with-django/
 presenter_slugs:
@@ -25,4 +26,4 @@ When I started learning Python, it was exciting&mdash;uncharted territory ahead.
 
 I bombarded my search engine with variations of "which Python framework should I use." This led me to several "batteries included" vs "microframework" comparisons, with varying degrees of usefulness.
 
-This talk will highlight some reasons I ultimately decided to build my blog, [Python By Night](https://www.pythonbynight.com), on the backbone of FastAPI, and where I am today on Python journey.
+This talk will highlight some reasons I ultimately decided to build my blog, [Python By Night](https://www.pythonbynight.com), on the backbone of FastAPI, and where I am today on my Python journey.

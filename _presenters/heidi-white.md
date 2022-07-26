@@ -3,8 +3,10 @@ company: University of Toronto
 hidden: false
 layout: speaker-template
 name: Heidi White
+permalink: /presenters/heidi-white/
 photo_url: null
-twitter: '@heidiwhite'
+slug: heidi-white
+twitter: heidiwhite
 website: null
 ---
 

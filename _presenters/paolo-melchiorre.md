@@ -3,7 +3,9 @@ company: 20tab
 hidden: false
 layout: speaker-template
 name: Paolo Melchiorre
-photo_url: https://pretalx.com/media/avatars/1-IMG_20170423_153741-192x192_Q5gms7I.jpg
+permalink: /presenters/paolo-melchiorre/
+photo_url: /static/img/presenters/paolo-melchiorre.jpg
+slug: paolo-melchiorre
 twitter: pauloxnet
 website: null
 ---

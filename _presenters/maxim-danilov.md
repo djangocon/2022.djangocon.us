@@ -3,8 +3,10 @@ company: wP soft
 hidden: false
 layout: speaker-template
 name: Maxim Danilov
+permalink: /presenters/maxim-danilov/
 photo_url: null
-twitter: '@danilovmy'
+slug: maxim-danilov
+twitter: danilovmy
 website: null
 ---
 
