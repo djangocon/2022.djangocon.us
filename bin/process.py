@@ -8,8 +8,10 @@ from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
 from pathlib import Path
 from pydantic import BaseModel, Field, ValidationError
+from rich import print
 from slugify import slugify
 from typing import List, Optional
+from urllib.parse import quote_plus
 import pytz
 
 CONFERENCE_TZ = pytz.timezone("America/Los_Angeles")
@@ -513,6 +515,24 @@ def generate_keynote(
 
 
 @app.command()
+def generate_shots(
+    height: int = 512,
+    quality: int = 80,
+    width: int = 1024,
+):
+    presenters = Path("_presenters").glob("*.md")
+    presenters = sorted(presenters, key=os.path.getmtime)
+    for presenter in presenters:
+        post = frontmatter.loads(presenter.read_text())
+        print(f"- output: ./static/img/social/presenters/{post['slug']}.png")
+        print(f"  height: {height}")
+        print(f"  quality: {quality}")
+        print(f"  width: {width}")
+        print(f"  url: https://2022.djangocon.us{post['permalink']}")
+        print()
+
+
+@app.command()
 def generate_2022_placeholders(event_date: datetime, create_keynotes: bool = False):
     tutorial_date = event_date
     talks_dates = [event_date + relativedelta(days=count) for count in [1, 2, 3]]
@@ -645,9 +665,11 @@ def process(process_presenters: bool = False, slug_max_length: int = 40):
 
                 if post["presenter_slugs"] and len(post["presenter_slugs"]):
                     presenter_slug = post["presenter_slugs"][0]
-                    post[
-                        "image"
-                    ] = f"/static/img/social/presenters/{presenter_slug}.png"
+                    image_url = f"https://2022.djangocon.us/presenters/{presenter_slug}"
+                    image_url = quote_plus(image_url)
+                    image_url = quote_plus(image_url)
+                    image_url = f"https://v1.screenshot.11ty.dev/{image_url}/opengraph/"
+                    post["image"] = image_url
 
             if dirty is True:
                 filename.write_text(frontmatter.dumps(post) + "\n")
