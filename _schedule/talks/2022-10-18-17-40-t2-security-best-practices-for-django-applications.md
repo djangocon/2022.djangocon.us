@@ -13,16 +13,18 @@ abstract: Security is of utmost importance to most applications in general and w
   Application Security Project(OWASP) Top 10 recommendations. Next, I will discuss
   built-in security features in Django. Finally, I will discuss the configuration
   settings and issues that may affect the secure deployment of Django applications.
-accepted: false
+accepted: true
 category: talks
 date: 2022-10-18 17:40:00-07:00
 end_date: 2022-10-18 18:05:00-07:00
+image: https://v1.screenshot.11ty.dev/https%3A%2F%2F2022.djangocon.us%2Fpresenters%2Fgajendra-deshpande/opengraph/
 layout: session-details
 permalink: /talks/security-best-practices-for-django-applications/
 presenter_slugs:
 - gajendra-deshpande
 published: true
 room: Online talks
+schedule_layout: full
 sitemap: true
 slug: security-best-practices-for-django-applications
 summary: ''
@@ -37,5 +39,5 @@ Outline
 1. Importance of Security with respect to Web applications (02 Minutes)
 2. Identifying security issues using Mozilla Observatory (05 Minutes)
 3. OWASP Top 10 issues and how to address them in Django (8 Minutes)
-4. Built-in Security features in Django (7 Minutes) 
+4. Built-in Security features in Django (7 Minutes)
 5. Secure Deployment of Django applications (03 Minutes)
