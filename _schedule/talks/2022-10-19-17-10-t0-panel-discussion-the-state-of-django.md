@@ -8,7 +8,7 @@ end_date: 2022-10-19 17:40:00-07:00
 # TODO should we make a custom image for this?
 # image:
 layout: session-details
-permalink: /talks/state-of-django/
+permalink: /talks/panel-discussion-the-state-of-django/
 presenter_slugs:
 - dawn-wages
 published: true
