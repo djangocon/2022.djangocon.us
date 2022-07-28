@@ -1,5 +1,5 @@
 ---
-abstract: "What does the future of Django hold? How should the community grow?"
+abstract: What does the future of Django hold? How should the community grow?
 accepted: true
 audience: all
 category: talks
@@ -18,7 +18,7 @@ sitemap: true
 slug: state-of-django
 summary: ''
 tags: null
-title: "Panel Discussion: The State of Django"
+title: 'Panel Discussion: The State of Django'
 track: t0
 ---
 
