@@ -1,7 +1,7 @@
 ---
 author: Drew Winstel
 category: Program
-date: 2022-07-26 20:00:00-07:00
+date: 2022-08-01 16:00:00-07:00
 image: /static/img/social/presenters/ruth-ikegah.jpg
 layout: post
 title: 'Announcing Our Keynotes: Ruth Ikegah'
