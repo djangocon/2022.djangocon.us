@@ -1,5 +1,4 @@
 ---
-difficulty: Beginner
 pronouns: he/him
 company: AspirEDU / Jazzband / Underdog Devs
 hidden: false
