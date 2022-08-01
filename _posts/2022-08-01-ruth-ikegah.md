@@ -12,9 +12,6 @@ We're honored to announce our first keynote speaker for DjangoCon US 2022: Ruth 
 <img src="/static/img/presenters/ruth-ikegah.jpg" alt="Photo of Ruth Ikegah" style="width:45%; display:block; float:right;" />
 
 
-
-Don't miss Amber's keynote! [Buy your ticket]({{site.ticket_link}}) today.
-
 Ruth Ikegah is an Open Source Program Manager, Technical Writer, and GitHub Star. She currently acts as the Community Lead at CHAOSS Africa, a community that focuses on improving the health of Open Source software, contributions, and communities across the continent.
 
 Her talk is titled "Women of Open Source Community Africa; Emerging a Star."
