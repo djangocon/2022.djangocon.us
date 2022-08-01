@@ -2,14 +2,14 @@
 author: Drew Winstel
 category: Program
 date: 2022-07-26 20:00:00-07:00
-image: /static/img/social/presenters/ruth-ikegah.jpeg
+image: /static/img/social/presenters/ruth-ikegah.jpg
 layout: post
 title: 'Announcing Our Keynotes: Ruth Ikegah'
 ---
 
 We're honored to announce our first keynote speaker for DjangoCon US 2022: Ruth Ikegah!
 
-<img src="/static/img/speakers/ruth-ikegah.jpeg" alt="Photo of Ruth Ikegah" style="width:45%; display:block; float:right;" />
+<img src="/static/img/speakers/ruth-ikegah.jpg" alt="Photo of Ruth Ikegah" style="width:45%; display:block; float:right;" />
 
 
 
