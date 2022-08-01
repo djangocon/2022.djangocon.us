@@ -10,7 +10,7 @@ room: Salon A-E
 schedule_layout: full
 sitemap: true
 talk_slot: full
-title: Keynote: Women of Open Source Community Africa; Emerging a Star
+title: 'Keynote: Women of Open Source Community Africa; Emerging a Star'
 track: t0
 ---
 
