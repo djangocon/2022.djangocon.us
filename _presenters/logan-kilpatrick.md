@@ -5,6 +5,7 @@ permalink: /presenters/logan-kilpatrick/
 photo_url: /static/img/organizers/logan.jpg
 slug: logan-kilpatrick
 title: DjangoCon US 2022 Chair
+pronouns: he/him
 twitter: OfficialLoganK
 website: https://scholar.harvard.edu/logankilpatrick
 ---
