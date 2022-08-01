@@ -5,6 +5,7 @@ layout: speaker-template
 name: Erin Mullaney
 permalink: /presenters/erin-mullaney/
 photo_url: null
+pronouns: she/her
 slug: erin-mullaney
 twitter: _erin_rachel
 website: null
