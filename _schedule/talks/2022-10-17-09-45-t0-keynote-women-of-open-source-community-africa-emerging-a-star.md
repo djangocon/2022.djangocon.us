@@ -7,6 +7,8 @@ end_date: 2022-10-17 10:30:00-07:00
 layout: session-details
 link: null
 permalink: /talks/keynote-women-of-open-source-community-africa/
+presenter_slugs:
+- ruth-ikegah
 room: Salon A-E
 schedule_layout: full
 sitemap: true
