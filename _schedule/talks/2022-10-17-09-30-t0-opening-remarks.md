@@ -13,3 +13,4 @@ sitemap: true
 title: Opening Remarks
 track: t0
 ---
+Logan will officially open DjangoCon US and introduce our opening keynote speaker, Ruth Ikegah.
