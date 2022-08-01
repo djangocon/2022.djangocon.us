@@ -6,8 +6,8 @@ difficulty: All
 end_date: 2022-10-19 10:30:00-07:00
 layout: session-details
 link: null
-permalink: /talks/keynote-state-of-orm.md
-presenter-slugs:
+permalink: /talks/keynote-state-of-orm
+presenter_slugs:
 - simon-charette
 room: Salon A-E
 sitemap: true
