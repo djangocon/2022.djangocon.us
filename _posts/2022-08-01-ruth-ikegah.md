@@ -9,7 +9,7 @@ title: 'Announcing Our Keynotes: Ruth Ikegah'
 
 We're honored to announce our first keynote speaker for DjangoCon US 2022: Ruth Ikegah!
 
-<img src="/static/img/speakers/ruth-ikegah.jpg" alt="Photo of Ruth Ikegah" style="width:45%; display:block; float:right;" />
+<img src="/static/img/presenters/ruth-ikegah.jpg" alt="Photo of Ruth Ikegah" style="width:45%; display:block; float:right;" />
 
 
 
