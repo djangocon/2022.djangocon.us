@@ -12,7 +12,7 @@ presenter_slugs:
 room: Salon A-E
 sitemap: true
 talk_slot: full
-title: 'Keynote: State of the ORM'
+title: 'Keynote: State of the Object-Relational Mapping (ORM)'
 track: t0
 ---
 
