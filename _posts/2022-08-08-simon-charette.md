@@ -8,7 +8,7 @@ title: 'Announcing Our Keynotes: Simon Charette'
 
 We're honored to announce our third keynote speaker for DjangoCon US 2022: Simon Charette!
 
-Simon has been contributing to Django for the past ten years, mainly to the ORM and the migration framework. Through this work, he developed an interest in RDBMS/SQL and has been focusing on making Django work great with them in the context of large Python applications.
+Simon has been contributing to Django for the past ten years, mainly to the ORM (object-relational mapping) and the migration framework. Through this work, he developed an interest in RDBMS/SQL and has been focusing on making Django work great with them in the context of large Python applications.
 
 He currently works at Zapier and shares his spare time enjoying the outdoor, playing ultimate frisbee, and contributing to FOSS.
 
