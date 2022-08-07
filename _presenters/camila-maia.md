@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Camila Maia
 permalink: /presenters/camila-maia/
-photo_url: null
+photo_url: static/img/presenters/camila-maia.jpg
 slug: camila-maia
 twitter: cmaiacd
 website: null
