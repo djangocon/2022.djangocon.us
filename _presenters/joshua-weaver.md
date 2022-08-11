@@ -4,7 +4,7 @@ hidden: false
 layout: speaker-template
 name: Joshua Weaver
 permalink: /presenters/joshua-weaver/
-photo_url: null
+photo_url: /static/img/presenters/joshua-weaver.jpg
 slug: joshua-weaver
 twitter: josh7weaver
 website: null
