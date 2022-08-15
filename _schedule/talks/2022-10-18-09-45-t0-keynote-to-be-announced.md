@@ -6,11 +6,16 @@ difficulty: All
 end_date: 2022-10-18 10:30:00-07:00
 layout: session-details
 link: null
+presenter-slugs:
+  - melanie-arbor
+  - jay-miller
 room: Salon A-E
 sitemap: true
 talk_slot: full
-title: Keynote (to be announced)
+title: 'Come on in, the Water’s Fine: Making Python More Approachable'
 track: t0
 ---
 
-Pay attention to our [blog](/news/) for keynote speakers!
+Python has grown to be the largest programming language in the world; that’s one big pool. But like all things tech there are too many things that keep folx out of the water, and lots of ways we can get them diving into the deep end.
+
+This talk shares the perspectives of two developers who benefitted from a community that was welcoming, supportive, and awesome. They’ll share the advice they did and DIDN'T recieve; stories from along the way; and how those of us already floating can make room for all the new people wanting to join in on the fun. Grab your floaties, kids—let’s jump in.
