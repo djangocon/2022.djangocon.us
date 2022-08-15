@@ -25,4 +25,4 @@ Python has grown to be the largest programming language in the world; that’s o
 
 This talk shares the perspectives of two developers who benefitted from a community that was welcoming, supportive, and awesome. They’ll share the advice they did and DIDN'T recieve; stories from along the way; and how those of us already floating can make room for all the new people wanting to join in on the fun. Grab your floaties, kids—let’s jump in.
 
-Don't miss Melanie's and Jay's [keynote](/talks/come-on-in-waters-fine/)! [Buy your ticket]({{site.ticket_link}}) today.
+Don't miss Melanie's and Jay's [keynote](/talks/keynote-come-on-in-waters-fine/)! [Buy your ticket]({{site.ticket_link}}) today.
