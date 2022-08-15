@@ -9,7 +9,7 @@ title: 'Announcing Our Keynotes: Melanie Arbor and Jay Miller'
 
 We're honored to announce our second keynote speakers for DjangoCon US 2022 and two wonderful members of the San Diego Python/Django community: Melanie Arbor and Jay Miller! For the first time, DjangoCon US will feature two speakers doing one keynote on making Python more approachable and growing the community.
 
-<img src="/static/img/presenters/melanie-arbor.jpg" alt="Photo of Melanie Arbor" style="width:45%; display:block; float:right;" />
+<img src="/static/img/presenters/melanie-arbor.jpeg" alt="Photo of Melanie Arbor" style="width:45%; display:block; float:right;" />
 
 Melanie is a tinkerer, a Python developer, and the creator of FiveUp. She is (mostly) shamelessly mentally ill. She lives in San Diego, California, even though she doesn’t like sand because it always gets in your mouth no matter what you do. She has yet to figure out the correct number of marshmallows to eat.
 
