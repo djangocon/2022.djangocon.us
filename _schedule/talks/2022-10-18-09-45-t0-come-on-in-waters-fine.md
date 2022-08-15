@@ -7,7 +7,7 @@ end_date: 2022-10-18 10:30:00-07:00
 layout: session-details
 link: null
 permalink: /talks/keynote-come-on-in-waters-fine/
-presenter-slugs:
+presenter_slugs:
   - melanie-arbor
   - jay-miller
 room: Salon A-E
