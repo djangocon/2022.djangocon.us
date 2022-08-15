@@ -1,7 +1,7 @@
 ---
 author: Drew Winstel
 category: Program
-date: 2022-08-08 16:00:00-07:00
+date: 2022-08-15 16:00:00-07:00
 image: /static/img/blog/melanie-and-jay.jpg
 layout: post
 title: 'Announcing Our Keynotes: Simon Charette'
