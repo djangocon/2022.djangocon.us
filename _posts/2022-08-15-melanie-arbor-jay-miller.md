@@ -4,7 +4,7 @@ category: Program
 date: 2022-08-15 16:00:00-07:00
 image: /static/img/blog/melanie-and-jay.jpg
 layout: post
-title: 'Announcing Our Keynotes: Simon Charette'
+title: 'Announcing Our Keynotes: Melanie Arbor and Jay Miller'
 ---
 
 We're honored to announce our second keynote speakers for DjangoCon US 2022 and two wonderful members of the San Diego Python/Django community: Melanie Arbor and Jay Miller! For the first time, DjangoCon US will feature two speakers doing one keynote on making Python more approachable and growing the community.
