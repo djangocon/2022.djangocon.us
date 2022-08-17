@@ -35,7 +35,7 @@ It's helpful to have an idea of where you are in your development journey? Are y
 
 Why do you want to contribute to FLOSS? There are many different reasons, some of which were mentioned above. Are you more focused on giving back to a community that's already given to you? Maybe you're looking forward to improving your engineering skills or learning more about a package you and/or your company frequently use or depend on? A little introspection on your motives can help guide your efforts.
 
-Finally, it's helpful to give some thought to which FLOSS project you want to contribute to? With that in mind, even if there's not a dedicated sprint happening for that project, you could use the time during the sprints to start looking at making contributions on your own. A 1-person sprint is very much "a thing".
+Finally, it's helpful to give some thought to which FLOSS project you want to contribute to. With that in mind, even if there's not a dedicated sprint happening for that project, you could use the time during the sprints to start looking at making contributions on your own. A one-person sprint is very much "a thing".
 
 
 ## The Self-Care Sprint
