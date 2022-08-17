@@ -18,7 +18,9 @@ As mentioned in the "[Why DjangoCon US](https://2022.djangocon.us/why-djangocon-
 From a practical perspective, if your organization makes heavy use of Django or a related package, getting involved in its maintenance will give you a better understanding of that package, as well as it's strengths & limitations. On the personal side, most people won't usually work on a project that's as widely used as Django or some of the other related packages. Getting involved in the maintenance of one of these packages can expose you to engineering practices you like wouldn't see otherwise. This can help you become a better engineer while allowing you to contribute to the community that benefits you and your company.
 
 ## Adjusting Your Travel/Lodging Details: Act Early!
-If you're planning to stay for the sprints *(this year, October 20-21)*, you'll want to make your travel & lodging plans to stay through Thursday or Friday (depening on how long you want to sprint).
+If you're planning to stay for the sprints *(this year, October 20-21)*, you'll want to make your travel & lodging plans to stay through Thursday or Friday (depending on how long you want to sprint).
+
+If you've already booked your hotel room, please call the Marriott at [+1 (619) 692-3800](tel:+16196923800) to adjust your reservation as you may not be able to secure the group rate by adjusting your stay online.
 
 ## What should you know if you want to sprint?
 ### Git and Github basics
