@@ -43,4 +43,4 @@ Finally, while Development Sprints are a valuable part of open source software, 
 
 `The Self-Care Sprint is the only sprint that makes every other sprint sustainable.`
 
-People who've pushed themselves to their limits don't have the required excess capacity to make extra contributions. So please, make sure you take care of yoursel during the sprints
+People who've pushed themselves to their limits don't have the required excess capacity to make extra contributions. So please, make sure you take care of yourself during the sprints!
