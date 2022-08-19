@@ -8,7 +8,7 @@ title: "Development Sprints: What are they & why should I attend?"
 
 ## What even IS a Development Sprint?
 *(In the ancient days of FLOSS...)*
-Sprints are most common around **F**ree/**L**ibre **O**pen **S**ource **S**oftware, or [FLOSS](https://en.m.wikipedia.org/wiki/Alternative_terms_for_free_software) projects. Most of these projects (like Django and Python) are maintained by a community of volunteers. These volunteers usually work together while spread around the world. Conferences presented rare occasions for these developers to work together in person. And thus,Development Sprints were born! In the context of a given conference or event, you'll often hear them referred to as "the sprints" or just "sprints".
+Sprints are most common around **F**ree/**L**ibre **O**pen **S**ource **S**oftware, or [FLOSS](https://en.m.wikipedia.org/wiki/Alternative_terms_for_free_software) projects. Most of these projects (like Django and Python) are maintained by a community of volunteers. These volunteers usually work together while spread around the world. Conferences presented rare occasions for these developers to work together in person. And thus, Development Sprints were born! In the context of a given conference or event, you'll often hear them referred to as "the sprints" or just "sprints".
 
 Over time, these core developers realized sprints also provided them an opportunity to help find *new* potential contributors. And that's where YOU come in.
 
