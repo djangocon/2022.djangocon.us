@@ -25,7 +25,7 @@ title: Massively increase your productivity on personal projects with comprehens
 track: t1
 ---
 
-When I worked for a company that grew to have an engineering team spanning three containers I learned that the only way to keep things productive was to embrace comprehensive documentation and automated tests.
+When I worked for a company that grew to have an engineering team spanning three continents I learned that the only way to keep things productive was to embrace comprehensive documentation and automated tests.
 
 Then I decided if see if the techniques that worked for software development at large team sizes could scale down to my personal projects with a team size of one.
 
