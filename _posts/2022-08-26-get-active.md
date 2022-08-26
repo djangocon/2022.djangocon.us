@@ -39,6 +39,10 @@ If you want something unpaved, [Tecolote Canyon Natural Park & Nature Center](ht
 
 [Mission Trails Regional Park](https://mtrp.org/trail-maps/) has 65 miles of trails, the majority of which are open to hikers and mountain bikers. Some of the trails are quite steep, so know your limits!
 
+[Torrey Pines State Nature Preserve](https://www.parks.ca.gov/?page_id=657) has about 6 miles of trails right on the ocean. The park is free to enter but parking does cost money. It's about 15 miles (20-25 minute drive outside peak hours) from the hotel.
+
+[Balboa Park](https://www.balboapark.org/) has over 60 miles of trails varying in difficulty, length, and elevation. It's accessible via city bus and only about 3-5 miles away (depending on your choice of entrance) from the hotel.
+
 ## Bicycling
 
 There's a lot of quality biking in San Diego. In previous years, several attendees have had luck with [Stay Classy Bike Rentals](https://stayclassybikes.com), although there are several rental services in town.
@@ -49,7 +53,7 @@ If you're looking for longer rides, there's lots of flat riding [around San Dieg
 
 If you're looking to abandon roads and go do some mountain biking, [Mission Trails Regional Park](https://mtrp.org/trail-maps/) has 65 miles of trails, the majority of which are open to mountain bikers.
 
-If you want gravel riding, you're probably going to need to go up to North County, where local community Gravel Stoke has [charted a few routes](https://www.gravelstoke.com/gravel-cycling-gear-blog/san-diego-gravel-routes). 
+If you want gravel riding, you're probably going to need to go up to North County, where local community Gravel Stoke has [charted a few routes](https://www.gravelstoke.com/gravel-cycling-gear-blog/san-diego-gravel-routes).
 
 There are also a few road, mountain, and gravel routes at [Black Mountain Bicycles](https://www.blackmountainbicycles.com/articles/best-san-diego-bike-rides-pg924.htm).
 
