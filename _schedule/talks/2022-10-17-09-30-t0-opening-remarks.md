@@ -5,7 +5,7 @@ date: 2022-10-17 09:30:00-07:00
 end_date: 2022-10-17 09:45:00-07:00
 group: talks
 layout: session-details
-permalink: /talks/opening-remarks/
+permalink: /talks/opening-remarks-monday/
 presenter_slugs:
 - logan-kilpatrick
 room: Salon A-E

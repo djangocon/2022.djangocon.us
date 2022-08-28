@@ -7,7 +7,7 @@ end_date: 2022-10-18 10:30:00-07:00
 group: talks
 layout: session-details
 link: null
-permalink: /talks/come-on-in-the-waters-fine-making-python/
+permalink: /talks/keynote-come-on-in-waters-fine
 presenter_slugs:
 - melanie-arbor
 - jay-miller
