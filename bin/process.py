@@ -703,7 +703,9 @@ def process(
             presenters = post.get("presenters", list())
             track = post.get("track")
 
-            if permalink:
+            # TODO: Move to Model and check category/to verify if this
+            # should be changed
+            if not permalink:
                 permalink = "/".join(["", category_plural, slug, ""])
                 post["permalink"] = permalink
                 dirty = True
