@@ -8,6 +8,8 @@ sitemap: false
 title: Speaking Checklists for YouTube Videos
 ---
 
+<script src="https://cdn.tailwindcss.com"></script>
+
 {% for post in site.schedule %}
 {% capture day %}{{ post.date | date: "%A" }}{% endcapture %}
 {% if day == 'Monday' or day == 'Tuesday' or day == 'Wednesday' %}
@@ -19,7 +21,7 @@ title: Speaking Checklists for YouTube Videos
 
 <h4>{{ post.date | date: "%b %d %l:%M %p %Z" }} - <div id="{{ youtube-copy-title }}">{{ post.title }}</div></h4>
 
-<button class="btn border" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-title }}">
+<button class="btn bg-blue-200 border-solid border-2 border-grey-800 rounded-lg px-2 py-1" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-title }}">
 Copy title to clipboard
 </button>
 
