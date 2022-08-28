@@ -113,6 +113,7 @@ class Schedule(FrontmatterModel):
     category: Literal[
         "break",
         "lunch",
+        "rooms",
         "social-event",
         "sprints",
         "talks",
@@ -124,6 +125,7 @@ class Schedule(FrontmatterModel):
         Literal[
             "break",
             "lunch",
+            "rooms",
             "social-event",
             "sprints",
             "talks",
