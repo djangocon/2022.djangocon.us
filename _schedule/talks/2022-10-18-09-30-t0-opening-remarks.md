@@ -5,7 +5,7 @@ date: 2022-10-18 09:30:00-07:00
 end_date: 2022-10-18 09:45:00-07:00
 group: talks
 layout: session-details
-permalink: /talks/opening-remarks/
+permalink: /talks/opening-remarks-tuesday/
 presenter_slugs:
 - drew-winstel
 room: Salon A-E
