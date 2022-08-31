@@ -1,7 +1,7 @@
 ---
 author: Drew Winstel
 category: General
-date: 2022-08-26 12:00:00-05:00
+date: 2022-08-31 12:00:00-05:00
 layout: post
 title: Get Active at DjangoCon US
 ---
