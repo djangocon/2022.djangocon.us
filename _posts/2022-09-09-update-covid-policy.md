@@ -40,4 +40,4 @@ For PCR tests, the test must be taken no earlier than 3 days before the day of t
 
 For antigen and other such rapid tests that deliver results in under 24 hours, the test must be taken no earlier than the day before the event.
 
-If you are feeling even slightly unwell, please come to the registration desk to obtain a rapid test. In the event of a positive test while you are at DjangoCon, we will give you early access to the online platform so you are able to watch the rest of the talks from your hotel room.
+If you are feeling even slightly unwell, please come to the registration desk to obtain a rapid test. The DCUS organizers will have rapid tests available for you. In the event of a positive test while you are at DjangoCon, we will give you early access to the online platform so you are able to watch the rest of the talks from your hotel room.
