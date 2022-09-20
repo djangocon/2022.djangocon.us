@@ -3,7 +3,7 @@ abstract: "Are you using technology to make the world a better place? We all hav
 accepted: true
 category: talks
 date: 2022-10-17 10:30:00-07:00
-end_date: 2022-10-17 10:45:00-07:00
+end_date: 2022-10-17 10:40:00-07:00
 group: talks
 layout: session-details
 permalink: /talks/sponsored-talk-six-feet-up/
