@@ -18,7 +18,7 @@ date: 2022-10-16 09:00:00-07:00
 difficulty: All
 end_date: 2022-10-16 12:30:00-07:00
 group: tutorials
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fmeagen-voss/opengraph/
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fmeagen-voss%252F/opengraph/
 layout: session-details
 permalink: /tutorials/parlez-vous-django-internationalization/
 presenter_slugs:
@@ -37,10 +37,10 @@ Multilingual websites are becoming a standard requirement for many organizations
 
 This tutorial will cover:
 
-How to set up a Wagtail website
-The best ways to create a great user experience with Wagtail
-Setting up your website to support different languages
-Building workflows for content editors and translators
-Best practices for supporting multilingual content
+- How to set up a Wagtail website
+- The best ways to create a great user experience with Wagtail
+- Setting up your website to support different languages
+- Building workflows for content editors and translators
+- Best practices for supporting multilingual content
 
 To get the most out of this tutorial, you should have some comfort with using the command line. Previous experience with Django or Wagtail isn’t absolutely necessary, but you may want to complete the Django tutorial ahead of time. Some familiarity with the architecture of Django applications and Django models would help you understand the underlying concepts of this tutorial better.
