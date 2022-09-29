@@ -7,7 +7,7 @@ category: talks
 date: 2022-10-18 14:00:00-07:00
 end_date: 2022-10-18 14:45:00-07:00
 group: talks
-image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fsyed-ansab-waqar-gillani%252Fopengraph%252F
+image: https://v1.screenshot.11ty.dev/https%253A%252F%252F2022.djangocon.us%252Fpresenters%252Fsyed-ansab-waqar-gillani%252F/opengraph/
 layout: session-details
 permalink: /talks/building-microservice-architecture-for/
 presenter_slugs:
@@ -39,7 +39,7 @@ Topics to cover:
 
 Target Audience:
 
-This talk is directed towards Developers using Python or Django to engineer microservice architecture, primarily those who aspire to scale their products without establishing any vulnerable dependency inside the architecture. The talk focuses on various problems that may arise while engineering a microservice architecture and what is the best way to address these problems. 
+This talk is directed towards Developers using Python or Django to engineer microservice architecture, primarily those who aspire to scale their products without establishing any vulnerable dependency inside the architecture. The talk focuses on various problems that may arise while engineering a microservice architecture and what is the best way to address these problems.
 
 By the end of the talk, the audience should understand the benefits and limitations of microservice built architecture in general and the Django implementations of services in particular. They should also know where to get additional information on setting up their own architecture.
 
@@ -47,6 +47,6 @@ Additional notes:
 
 Me and Dawoud Sheraz, both, are part of the development team at Arbisoft/edX, where we have engineered microservice architecture in the Open edX project to reduce dependency and coupling.
 
-Inspiration: 
+Inspiration:
 
 Designing Microservices with Django - Akos Hochrein
