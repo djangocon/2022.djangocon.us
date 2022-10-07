@@ -14,7 +14,7 @@ presenter_slugs:
 room: Salon A-E
 sitemap: true
 talk_slot: full
-title: 'Come on in, the Water’s Fine: Making Python More Approachable'
+title: 'Keynote: Come on in, the Water’s Fine: Making Python More Approachable'
 track: t0
 ---
 
