@@ -25,14 +25,14 @@ track: t1
 ---
 
 The amazing layers of technology that are required to deliver online experiences can be
-overwhelming, and feel miraculous. It is easy to become overwhelmed, feeling we should
+staggering and feel miraculous. It is easy to become overwhelmed, feeling we should
 understand all of these layers, and end up wallowing in impostor syndrome. This talk
 will take an opportunity to poke fun at some of the more absurd moments in my own life,
 and celebrate the miracle that **anything** we do actually works at all!
 
-We work in ecosystems that are often anarchies. What can the communities, ecosystems,
-and technologies we work with learn from some of the most successful anarchies in human
-history, addiction recovery programs? There may be more parallels than you think!
+We work in ecosystems that are often anarchies. What can our communities learn from
+some of the most successful anarchies in human history, addiction recovery programs?
+There may be more parallels than you think!
 
 Join Tim on a journey where we pan the camera around to the third-person perspective,
 and laugh at ourselves a bit. It'll be therapeutic: laughter is the best cure for
