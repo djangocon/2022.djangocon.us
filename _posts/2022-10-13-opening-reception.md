@@ -1,5 +1,5 @@
 ---
-author: Lacey Williams Henschel
+author: DjangoCon US Organizers
 category: General
 date: 2022-10-13 06:00:00
 layout: post
