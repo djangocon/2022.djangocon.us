@@ -7,6 +7,7 @@ abstract: "Building complex range-based queries with individual `start` and `end
   code and a cheatsheet for working with ranges."
 accepted: true
 category: talks
+difficulty: Intermediate
 date: 2022-10-19 15:50:00-07:00
 end_date: 2022-10-19 16:35:00-07:00
 group: talks
@@ -240,7 +241,7 @@ The final (stripped down) models.py with range fields is:
 
 Example Project Walkthrough (30 min)
 
-The models in this project will be used to demonstrate the following tasks in django views:
+The models in this project will be used to demonstrate a variety of tasks in django views, including a number of the following:
 
 - Set constraints for the various range fields
 - Access the lower and upper values of a range fields in views and templates
@@ -274,10 +275,12 @@ The models in this project will be used to demonstrate the following tasks in dj
 - Assuming each reservation is associated with a Resource, annotate Resources with the most recently ending reservation (similar for most recent starting or longest-ago starting/ending reservation)
 - Multiple ways of saving a model instance with DateTimeRangeField
 
+*Note: Those examples above which we are unable to cover during the talk can be viewed in the example project GitHub repo which will be provided for the talk*
+
 Resources (5 min)
 
 - Django docs
-- The django source code and tests
+- The django source code and tests as references
 - PostgreSQL docs on ranges
-- Example project GitHub repo
+- Example pool-scheduler project GitHub repo
 - Django ranges cheatsheet
