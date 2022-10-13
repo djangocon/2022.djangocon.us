@@ -2,7 +2,7 @@
 accepted: true
 category: break
 date: 2022-10-17 17:40:00-07:00
-end_date: 2022-10-17 18:30:00-07:00
+end_date: 2022-10-17 19:00:00-07:00
 layout: session-details
 link: null
 permalink: /talks/welcome-reception/
