@@ -120,7 +120,7 @@ The sponsorship committee recruits sponsors which help offset the cost of runnin
 ### At-conference responsibilities
 
 - Direct sponsors to their booths/tables and swag
-- Remind non-sponsors (or sponsors who haven't procured a booth) that they can't have a booth if needed
+- Ensure that booths are reserved for sponsors who have reserved a booth, and are not open for others
 - Field complaints/questions from sponsors
 
 ## Code of Conduct Committee
