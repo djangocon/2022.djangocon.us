@@ -108,7 +108,7 @@ The sponsorship committee recruits sponsors which help offset the cost of runnin
 
 ### Pre-conference responsibilities
 
-- Create and announce sponsorship prospectus
+- Create and announce sponsorship prospectus (we have templates, and DEFNA will help with specifics)
 - Recruit sponsors
 - Coordinate contract signing with DEFNA
 - Consider awarding community sponsorships (non-financial) to other non-profit Python conferences and related communities (local Python meetups near the conference will love the exposure)
