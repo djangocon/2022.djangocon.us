@@ -137,6 +137,7 @@ The CoC committee suggests improvements to the CoC and investigates reports. Thi
 ### At-conference responsibilities
 
 - Field reports and investigate them, including recommending actions to the DEFNA board
+- Follow-up on reports, including conversations with both reporters and those who have been reported, and facilitate the appropriate response
 - Write a CoC transparency report to recap reports (heavily anonymized) and actions taken
 
 ## Social Events Committee
