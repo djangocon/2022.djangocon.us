@@ -1,7 +1,7 @@
 ---
 author: Drew Winstel
 category: General
-date: 2022-10-18 11:00:00-07:00
+date: 2022-10-18 12:00:00-07:00
 layout: post
 title: "Call for Volunteers: DjangoCon US 2023"
 ---
