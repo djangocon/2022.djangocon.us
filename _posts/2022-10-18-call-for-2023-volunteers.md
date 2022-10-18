@@ -176,7 +176,7 @@ The venue committee is responsible for coordinating plans between the other orga
 
 - Review room guest list against ticket list to claim reward nights
 - Handle any last-minute requests from vendors/sponsors/organizers/etc.
-- Notify venue staff of any needs (bathroom cleanliness, etc.)
+- Notify venue staff of any needs (bathroom cleanliness, meals to accommodate special diets, etc.)
 
 ## Audio/Video (A/V) Committee
 
