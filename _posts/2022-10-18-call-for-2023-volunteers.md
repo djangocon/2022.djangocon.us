@@ -72,7 +72,7 @@ The OG committee is responsible for obtaining grants from the DSF and PSF and aw
 - Request grants from Django Software Foundation and Python Software Foundation (the DEFNA board will help you fill out the forms)
 - Recruit grant reviewers (other organizers and DEFNA members are happy to help)
 - Review submissions
-- Coordinate with program team to award to speakers
+- Coordinate with program team about grants to speakers
 - Notify grant recipients in waves (concurrent with program notifications)
 - Communicate with recipients on how to get reimbursed (we'll have templates)
 - Give DEFNA a lit of recipients and amounts
