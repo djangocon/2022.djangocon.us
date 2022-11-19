@@ -19,7 +19,7 @@ title: Speaking Checklists for YouTube Videos
 
 {% capture youtube-copy-title %}copy-{{ post.slug | slugify }}-youtube{% endcapture %}
 
-<h4><!--{{ post.date | date: "%b %d %l:%M %p %Z" }} - -->DjangoCon US 2022 - <div id="{{ youtube-copy-title }}">{{ post.title }}</div></h4>
+<h4><!--{{ post.date | date: "%b %d %l:%M %p %Z" }} - --><div id="{{ youtube-copy-title }}">{{ post.title }} - DjangoCon US 2022</div></h4>
 
 <button class="btn bg-blue-200 border-solid border-2 border-grey-800 rounded-lg px-2 py-1" data-clipboard-action="copy" data-clipboard-target="#{{ youtube-copy-title }}">
 Copy title to clipboard
