@@ -1,13 +1,7 @@
-.bundle
-.cache
-.DS_Store
+.jekyll-cache
 .jekyll-metadata
 .sass-cache
 .vendor
 _site
-bower_components/
-node_modules/
-npm-debug.log
-static/*.map
-# Ignore "Gemfile.lock" for Docker Compose
 Gemfile.lock
+vendor
